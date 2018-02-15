@@ -78,7 +78,12 @@
 //   ...
 // ]
 function getListOfBuildingObjects (bldngs) {
-  // CODE HERE
+
+
+   return Object.keys(bldngs).map(function(id) {
+      return bldngs[id];
+    });
+
 }
 
 
